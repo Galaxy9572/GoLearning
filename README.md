@@ -1,15 +1,16 @@
-# go_learning
-golang学习代码
+# Go Learning
 
-## first 
+## Chapter 1 
 
 - var
 - const
 - complex
 
-## second 
+## Chapter 2 
 
 - for
 - switch
 - func
 - pointer
+
+## Chapter 3
