@@ -14,3 +14,5 @@
 - pointer
 
 ## Chapter 3
+
+- array
