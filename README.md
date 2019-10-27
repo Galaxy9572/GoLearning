@@ -16,3 +16,4 @@
 ## Chapter 3
 
 - array
+- slice
