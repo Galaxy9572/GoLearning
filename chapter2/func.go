@@ -1,4 +1,4 @@
-package main
+package chapter2
 
 import (
 	"fmt"
@@ -31,9 +31,9 @@ func funcFunc(fun func(int, int) int, c, d int) int {
 }
 
 // 可变参数列表
-func multipleArgsFunc(args... int) {
+func multipleArgsFunc(args ...int) {
 
-	for i := range args{
+	for i := range args {
 		fmt.Print(i)
 		fmt.Print(args[i])
 	}

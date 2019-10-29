@@ -1,4 +1,4 @@
-package main
+package chapter2
 
 import (
 	"bufio"
@@ -18,7 +18,7 @@ func forFunc() {
 		fmt.Print("I am Dead Lock")
 	}
 
-	file, err := os.Open("main/abc.txt")
+	file, err := os.Open("entry/abc.txt")
 
 	if err != nil {
 		panic(err)

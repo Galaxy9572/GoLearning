@@ -1,11 +1,11 @@
-package main
+package chapter2
 
 import "fmt"
 
 func ifFunc(data int) bool {
 	if data < 0 {
 		return true
-	} else if data == 0{
+	} else if data == 0 {
 		return false
 	}
 	return true

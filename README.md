@@ -18,3 +18,9 @@
 - array
 - slice
 - map
+- string
+
+## Chapter 4
+
+- struct
+- encapsulation
