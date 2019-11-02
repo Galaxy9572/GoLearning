@@ -24,3 +24,6 @@
 
 - struct
 - encapsulation
+- extend a struct
+- GOPATH
+
