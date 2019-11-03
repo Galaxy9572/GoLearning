@@ -17,10 +17,9 @@ type Car struct {
 }
 
 // Car实现Run方法，接口的实现是隐式的，不需要声明实现了哪个接口
-func (car Car) Run(){
+func (car Car) Run() {
 	fmt.Println("Car is running...")
 }
-
 
 // duck typing
 // 描述事物的外部行为
