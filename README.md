@@ -26,4 +26,5 @@
 - encapsulation
 - extend a struct
 - GOPATH
+- interface
 
