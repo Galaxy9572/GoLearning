@@ -20,6 +20,6 @@ func switchFunc(data int) {
 		fmt.Print("1")
 	default:
 		// 报错
-		panic("error")
+		panic("main")
 	}
 }

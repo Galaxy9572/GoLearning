@@ -26,5 +26,20 @@
 - encapsulation
 - extend a struct
 - GOPATH
+
+## Chapter5
+
 - interface
 
+## Chapter6
+
+- functional
+
+## Chapter7
+
+- error
+
+## Chapter8
+
+- test
+- benchmark
