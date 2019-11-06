@@ -29,7 +29,9 @@ func TestAdd(t *testing.T) {
 	}
 }
 
-//cmd: go benchmark
+// cmd: go benchmark
+// go test -bench . cpuprofile cpu.out生成性能报告
+// go tool pprof cpu.out查看文件，安装graphviz，用web命令查看图表
 func BenchmarkAdd(bc *testing.B) {
 	a, b, c := 1, 2, 3
 	for i := 0; i < bc.N; i++ {
@@ -38,4 +40,9 @@ func BenchmarkAdd(bc *testing.B) {
 			bc.Errorf("No")
 		}
 	}
+}
+
+// 给代码写示例代码
+func ExampleAdd_Add() {
+
 }
