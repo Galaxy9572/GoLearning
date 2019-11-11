@@ -1,11 +1,11 @@
 package main
 
 import (
-	"GoLearning/chapter9"
+	"GoLearning/chapter10"
 	"time"
 )
 
 func main() {
-	chapter9.ConcurrencyRun()
+	chapter10.ConcurrencyRun()
 	time.Sleep(time.Millisecond)
 }

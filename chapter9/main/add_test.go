@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoLearning/chapter8"
+	"GoLearning/chapter9"
 	"testing"
 )
 
@@ -35,7 +35,7 @@ func TestAdd(t *testing.T) {
 func BenchmarkAdd(bc *testing.B) {
 	a, b, c := 1, 2, 3
 	for i := 0; i < bc.N; i++ {
-		r := chapter8.Add(a, b)
+		r := chapter9.Add(a, b)
 		if r != c {
 			bc.Errorf("No")
 		}

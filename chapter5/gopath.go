@@ -1,4 +1,6 @@
-package chapter4
+package chapter5
+
+// 依赖管理三阶段：GOPATH -> GOVENDOR -> GOMOD
 
 // GOPATH默认在 ~/go (unix/linux),%USERPROFILE\go (windows)
 // 官方推荐所有项目和第三方库都放在同一个GOPATH下

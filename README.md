@@ -25,27 +25,35 @@
 - struct
 - encapsulation
 - extend a struct
-- GOPATH
 
 ## Chapter5
 
-- interface
+- GOPATH
+- GOMOD
 
 ## Chapter6
 
-- functional
+- interface
 
 ## Chapter7
 
-- error
+- functional
 
 ## Chapter8
+
+- error
+
+## Chapter9
 
 - test
 - benchmark
 - example
 - doc
 
-## Chapter9
+## Chapter10
 
 - goroutine
+
+## Chapter11
+
+- channel

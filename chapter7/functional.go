@@ -1,4 +1,4 @@
-package chapter6
+package chapter7
 
 // 函数式编程，返回函数
 func Add() func(v int) int {
